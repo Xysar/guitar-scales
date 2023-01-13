@@ -1,0 +1,26 @@
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.navigation-list {
+  display: flex;
+  gap: 10px;
+}
+.nav-container {
+  background: darkred;
+  padding: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: white;
+}
